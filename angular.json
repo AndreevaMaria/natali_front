@@ -119,6 +119,12 @@
           }
         }
       }
-    }},
-  "defaultProject": "natali-app"
+    }
+  },
+  "defaultProject": "natali-app",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
